@@ -1,0 +1,59 @@
+* {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+#dice-container {
+    display: flex;
+    
+}
+
+#container {
+    background-color: white;
+    height: 300px;
+    display: flex;
+     flex-direction: column;
+    align-items: center;
+}
+
+#winner {
+    font-size: 2rem;
+    text-align: center;
+    padding: 50xp;
+}
+
+#member-1,
+#member-2,
+#member-3 {
+    border: 2px solid;
+    background-color: white;
+    padding: 40px;
+    margin: 20px;
+}
+
+#roll {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    margin: 20px;
+}
+
+#roll>button {
+    color: rgb(15, 17, 18);
+    background-color: #da3e3e;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+
+#roll>button:hover {
+    color: aliceblue;
+    background-color: #e10505;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
